@@ -1,0 +1,15 @@
+subscribers
+
+status
+
+1 - active
+0 - inactive
+
+videos
+
+status
+
+0 - submitted
+1 - approved
+2 - featured
+3 - rejected

@@ -1,0 +1,61 @@
+.body-container .content-container{
+	padding: 20px 10%;
+	min-height: 600px;
+}
+
+#contact{
+	background: #FFF;	
+	padding: 20px;
+	width: 60%;
+	margin: 60px auto;
+	border-radius: 4px;
+	box-shadow: 2px 2px 4px #CCC;
+}
+
+.line-entry{
+	margin: 10px 0px;
+}
+
+.line-entry label{
+	font-size: 14px;
+	font-weight: 800;
+	width: 100px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.line-entry input[type="text"], .line-entry input[type="email"]{
+	width: 400px;
+	height: 30px;
+	font-size: 14px;
+	padding: 2px 5px;
+	border: 1px solid #CCC;
+	outline: none;
+
+}
+
+.line-entry textarea{
+	width: 400px;
+	height: 150px;
+	font-size: 14px;
+	border: 1px solid #CCC;
+	outline: none;
+}
+
+.line-entry input[type="submit"]{
+	border: none;
+	background: #c0392b;
+	padding: 10px 50px;
+	color: #FFF;
+	border-radius: 4px;
+	font-size: 14px;
+	margin: 20px 0px;
+	position: relative;
+	left: 40%;
+	cursor: pointer;
+	outline: none;
+}
+
+.line-entry input[type="submit"]:hover{
+	background: #e74c3c;
+}
